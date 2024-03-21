@@ -1,0 +1,24 @@
+{
+  "name": "bimcmt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tailwindcss-cli@latest build -i ./static/css/input.css -o ./static/css/output.css -w",
+    "test2": "npx tailwindcss -i ./static/css/input.css -o ./static/css/output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timoteahu/BIMCMT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timoteahu/BIMCMT/issues"
+  },
+  "homepage": "https://github.com/timoteahu/BIMCMT#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}

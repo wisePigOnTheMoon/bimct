@@ -1,0 +1,151 @@
+{% extends "layout.html" %}
+{% block main %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+
+<body class="mt-40">
+    {% include "navbar.html" %}
+
+    <div class="flex flex-col justify-center items-center mt-10">
+        <p class="text-4xl font-bold underline mb-10"> Meet Our Team</p>
+
+        <div class="flex flex-wrap justify-center items-center w-3/4s">
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/derrick.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Derrick Liu</div>
+                    <p class="text-gray-700 text-center">
+                        President
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/larry.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Larry Xing</div>
+                    <p class="text-gray-700 text-center">
+                        Vice President 
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/ary.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Ary Cheng</div>
+                    <p class="text-gray-700 text-center">
+                        Vice President
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/irene.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Irene Wang</div>
+                    <p class="text-gray-700 text-center">
+                        Head of Operations/Outreach
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/temp.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Adam Tang</div>
+                    <p class="text-gray-700 text-center">
+                        Head of Problem Writing
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/rohan.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Rohan Das</div>
+                    <p class="text-gray-700 text-center">
+                        Problem Writer
+                    </p>
+                </div>
+            </div>
+
+
+           
+
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/temp.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Felix Liu</div>
+                    <p class="text-gray-700 text-center">
+                        Problem Writer
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/temp.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Vishak Srikanth</div>
+                    <p class="text-gray-700 text-center">
+                        Operations/Outreach
+                    </p>
+                </div>
+            </div>
+
+
+            
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+            style="background-color: white;">
+            <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                style="max-width: 15rem;" src="../static/img/people/timothy.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-center">Timothy Hu</div>
+                <p class="text-gray-700 text-center">
+                    Website Developer
+                </p>
+            </div>
+        </div>
+
+            <div class="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-10 justify-start items-center mx-10"
+                style="background-color: white;">
+                <img class="w-full justify-center items-center text-center mt-4 rounded px-6 py-4"
+                    style="max-width: 15rem;" src="../static/img/people/angela.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-center">Angela Qian</div>
+                    <p class="text-gray-700 text-center">
+                        Artist
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block main %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+
+<body class="mt-40">
+    {% include "navbar.html" %}
+
+    <div class="flex flex-row justify-center items-center mt-48">
+        <div class="flex flex-col justify-center items-center">
+            <p class="font-bold text-3xl mb-10">BIMCT 2022</p>
+            <div class="flex flex-row jutsify-between items-center text-blue-600 mb-10">
+                <a href="../static/files/BIMCT_Individual_Round_High_School_Division.pdf" download class="mr-14">HS
+                    Individual Problems</a>
+                <a href="../static/files/BIMCT_Individual_Round_High_School_Division_Solutions.pdf" download>HS
+                    Individual Solutions</a>
+            </div>
+            <div class="flex flex-row jutsify-between items-center text-blue-600 mb-10">
+                <a href="../static/files/BIMCT_Individual_Round_Middle_School_Division.pdf" download class="mr-14">MS
+                    Individual Problems</a>
+                <a href="../static/files/BIMCT_Individual_Round_Middle_School_Division_Solutions.pdf" download>MS
+                    Individual Solutions</a>
+            </div>
+            <div class="flex flex-row jutsify-between items-center text-blue-600 mb-10">
+                <a href="../static/files/BIMCT_Team_Problems__Real_.pdf" download class="mr-14">Team Problems</a>
+                <a href="../static/files/BIMCT_Team_Problems_Solutions__Real_.pdf" download> Team Solutions</a>
+            </div>
+            <div class="flex flex-row jutsify-between items-center text-blue-600 mb-10">
+                <a href="../static/files/BIMCT_Tiebreaker_Problems__Real_.pdf" download class="mr-14">Tie Breaker
+                    Problems</a>
+                <a href="../static/files/BIMCT_Tiebreaker_Problems_Solutions__Real_.pdf" download> Tie Breaker
+                    Solutions</a>
+            </div>
+            <div class="flex flex-row jutsify-center items-center text-blue-600 mb-10">
+                <a href="../static/files/BIMCT_Estimathon.pdf" download>Estimathon</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}

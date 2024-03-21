@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block main %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+
+<body class="mt-40">
+    {% include "navbar.html" %}
+
+    <div class="flex flex-col justify-center items-center mt-48">
+        <div class="flex flex-col justify-center items-center mb-10">
+            <p class="text-3xl font-bold mb-4">The BIMCT Fall 2022 will take place on October 9th, 2022</p>
+            <p class="text-xl font-bold mb-8">ALL TIMES ARE IN PACIFIC STANDARD TIME. PLEASE CONVERT TO YOUR RESPECTIVE TIME ZONES.</p>
+
+            <p>10:00 am - 10:30 am 	Individual Round Orientation / Login</p>
+            <p>10:30 am  - 11:30 am	Individual Round </p>
+            <p>11:30 am - 11:45 am 	Break</p>
+            <p>11:45 am - 12:45 pm 	Team Round </p>
+            <p>12:45 pm - 1:45 pm 	Lunch</p>
+            <p>2:00 pm - 3:00 pm	Tiebreaker Round / Estimathon </p>
+            <p>3:15 pm - 4:00 pm	Countdown Round </p>
+            <p>4:15 pm - 5:00 pm	Ending slides/Closing Ceremony</p>
+            
+
+            <a href="https://us06web.zoom.us/j/7893724102?pwd=RmFINk9EencwZVdyU1BuNTArRTBtQT09" class="my-10 text-blue-600">Zoom Link for High School Division</a>
+
+            <a href="https://us02web.zoom.us/j/84294568183?pwd=OVZuU2M2bzBUYTZBZ3ZEZE9NOXFvUT09" class="mt-20 text-blue-600">Zoom Link for Middle School Division</a>
+        </div>
+        
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEZkpovlIUEqaS4R_IU-eS8h7vPx0Rd2TuLSo33_BSCRKusA/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        
+    </div>
+
+</body>
+
+{% endblock %}

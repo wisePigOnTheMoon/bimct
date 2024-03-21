@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block main %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+
+<body class="mt-40">
+    {% include "navbar.html" %}
+
+    <div class="flex flex-col justify-center items-center m-10 p-10">
+        <p class="text-5xl font-bold my-10">Our Mission</p>
+        <p class="text-l text-start max-w-5xl">The BIMCT aims to provide fun and exciting questions for participants. We hope to inspire more students to enjoy math and demonstrate that math is not only memorization but creativity. Many problems come with background information or stories that distinguish them from straight calculation or bash. Furthermore, we also aim to provide insight into how people can use mathematics in other STEM fields; some problems may include topics from different areas, but prior knowledge of those fields is not required.</p>
+
+        <p class="text-5xl font-bold my-10">Why Us?</p>
+        <p class="text-l text-start max-w-5xl">The BIMCT is meticulously crafted to contain fun yet challenging problems designed to prepare students for competitions like the AMCs and PuMAC. The BIMCT will challenge students of all ages to think beyond the school curriculum and utilize their creativity. Compared to other math tournaments, the BIMCT offers an exclusive opportunity for middle schoolers to experience and practice math competitions and elevate themselves to a higher level.</p>
+        <p class="text-5xl font-bold my-10">General Information</p>
+        <p class="text-l text-start max-w-5xl"> - The BIMCT offers two divisions: a middle school and a high school division. Middle school students can opt to take either the middle school or high school division tests, while high school students must take the high school division tests.  </p>
+        <p class="text-l text-start max-w-5xl"> - The contest will consist of an Individual Round and a Team Round. All contestants must take the Individual Round, but they do not have to take the Team Round. </p>
+        <p class="text-l text-start max-w-5xl"> - Students taking the Team Round may form teams of at most six. All students in a team must be in the same division. </p>
+        <p class="text-l text-start max-w-5xl"> - Contestants in the top 10 may be invited to take the Tiebreaker Round and/or the Countdown Round. </p>
+        <p class="text-l text-start max-w-5xl"> - We will offer Post-Contest Games such as Estimathon. </p>         
+        <p class="text-5xl font-bold my-10">Prizes</p>
+        <p class="text-l text-start max-w-5xl"> Prizes will be awarded to the five highest-scoring individuals in each division, the five highest-scoring teams in each division, and the Countdown Round and Post-Contest Games winners. Ties between teams will not be broken. </p>
+            <p> Prizes will be distributed as follows: </p>
+            <p> -#5 - #2 Individual for both divisions: 3Blue1Brown Notebook + Medal</p>
+            <p> -#1 Individual for both divisions: 3Blue1Brown Notebook + AoPS Gift Card + Medal</p>
+            <p> -#5 - #2 Team for both divisions: Medal</p>
+            <p> -#1 Team for both divisions: WolframAlpha Notebook + Medal</p>
+            <p> -Countdown Winner for both divisions: AoPS Gift Card</p>
+            <p> -Post-contest Games Winners: Trophy</p>
+            <p> -Feedback form giveaway: 2 WolframAlpha Notebooks + Leftover Awards</p>
+
+        
+
+    </div>
+</body>
+
+{% endblock %}
