@@ -35,6 +35,10 @@ def people():
 def signup():
     return render_template("signup.html", page="Signup - BIMCT")
 
+@app.route("/signup_2024")
+def signup_2024():
+    return render_template("signup_2024.html", page="Spring 2024 - BIMCT")
+
 @app.route("/submit")
 def submit():
     val = request.form.items
