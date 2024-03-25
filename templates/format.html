@@ -1,88 +1,190 @@
-{% extends "layout.html" %}
-{% block main %}
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+{% extends "layout.html" %} {% block main %}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ url_for('static',filename='css/index.css') }}"
+/>
 
 <body class="mt-40">
-    {% include "navbar.html" %}
+  {% include "navbar.html" %}
 
+  <div class="flex flex-col justify-center items-center">
+    <p class="text-5xl font-bold underline mb-10 mt-10 text-center">
+      Testing Information
+    </p>
     <div class="flex flex-col justify-center items-center">
-        <p class="text-5xl font-bold underline mb-10 mt-10 text-center">Testing Information</p>
-        <div class="flex flex-col lg:flex-row justify-start items-start">
-            <div class="flex flex-col justify-center items-center max-w-xl text-center mx-10">
-                <p class="text-3xl font-bold underline mb-10">Individual Round</p>
-                <p class="text-xl mb-10">The Individual Round is <b>10 problems</b> and <b>60 minutes</b>. The middle
-                    school test will contain problems ranging from AMC 8 to mid/late AMC 10, while the high school test
-                    will contain problems ranging from AMC 10 to mid/late AIME. Each Individual Round question is worth
-                    the same amount of points.</p>
-            </div>
-
-            <div class="flex flex-col justify-center items-center max-w-xl text-center  mx-10">
-                <p class="text-3xl font-bold underline mb-10">Team Round</p>
-                <p class="text-xl mb-10">The Team Round is <b>15 problems</b>, lasts <b>60 minutes</b>, and will be
-                    completed by teams of at most 6. The test will contain problems harder than the Individual Round,
-                    from Mid AMC 10 difficulty to late AIME difficulty. Each problem is worth the same amount of points.
-                </p>
-
-            </div>
+      <p class="text-5xl font-bold mb-10 mt-10 text-center">Math</p>
+      <div class="flex flex-col lg:flex-row justify-start items-start">
+        <div
+          class="flex flex-col justify-center items-center max-w-xl text-center mx-10"
+        >
+          <p class="text-2xl font-bold underline mb-10">Individual Round</p>
+          <p class="text-lg mb-10">
+            The Individual Round is <b>10 problems</b> and <b>60 minutes</b>.
+            The middle school test will contain problems ranging from AMC 8 to
+            mid/late AMC 10, while the high school test will contain problems
+            ranging from AMC 10 to mid/late AIME. Each Individual Round question
+            is worth the same amount of points.
+          </p>
         </div>
 
-        <div class="flex flex-col lg:flex-row justify-start items-start">
-            <div class="flex flex-col justify-center items-center max-w-xl text-center mx-10">
-                <p class="text-3xl font-bold underline mb-10">Tiebreaker Round</p>
-                <p class="text-xl mb-10">Anyone who ties for a top 10 score in each division will participate in a Tiebreaker Round. The Tiebreaker test has 5 problems that will challenge even the strongest competitors; the problems range from mid-AIME difficulty to Olympiad difficulty. The Tiebreaker Round proceeds as follows: questions are shown one at a time, with the most challenging question shown first. The times for the questions are as follows: Question 1, <b>25 minutes</b>; Question 2, <b>15 minutes</b>; Question 3, <b>10 minutes</b>; Question 4, <b>5 minutes</b>; Question 5, <b>5 minutes</b>. The first contestant to solve the first question wins the Tiebreaker Round; other contestants who solve the first question will be ranked by speed. Any contestants who submit an incorrect answer move on to the second question; similarly, accuracy and speed determine the rankings. This process repeats until all ties are broken. In the final round, if more than two people answer incorrectly, the person to answer incorrectly first places higher. All participants in the tiebreaker round must stay for the whole round in order to not betray the final rankings. </p>
+        <div
+          class="flex flex-col justify-center items-center max-w-xl text-center mx-10"
+        >
+          <p class="text-2xl font-bold underline mb-10">Team Round</p>
+          <p class="text-lg mb-10">
+            The Team Round is <b>15 problems</b>, lasts <b>60 minutes</b>, and
+            will be completed by teams of at most 6. The test will contain
+            problems harder than the Individual Round, from Mid AMC 10
+            difficulty to late AIME difficulty. Each problem is worth the same
+            amount of points.
+          </p>
+        </div>
+      </div>
 
-            </div>
-
-            <div class="flex flex-col justify-center items-center max-w-xl text-center  mx-10">
-                <p class="text-3xl font-bold underline mb-10">Countdown Round</p>
-                <p class="text-xl mb-10">After tiebreakers, the top 8 scorers in each division will participate in the
-                    Countdown Round. The Countdown Round consists of short, easy problems that last <b>45 seconds</b>
-                    each. In every round, two players will compete to answer the question as quickly and accurately as
-                    possible; the first person to answer correctly gains a point. Players may not answer a question
-                    again after answering incorrectly. No points are awarded if no person answers the question correctly
-                    when the time runs out. In all rounds except the final, the first person to receive 2 points moves
-                    on. In the final round, the first person to receive 3 points will win the Countdown Round. </p>
-
-            </div>
+      <div class="flex flex-col lg:flex-row justify-start items-start">
+        <div
+          class="flex flex-col justify-center items-center max-w-xl text-center mx-10"
+        >
+          <p class="text-2xl font-bold underline mb-10">Tiebreaker Round</p>
+          <p class="text-lg mb-10">
+            Anyone who ties for a top 10 score in each division will participate
+            in a Tiebreaker Round. The Tiebreaker test has 5 problems that will
+            challenge even the strongest competitors; the problems range from
+            mid-AIME difficulty to Olympiad difficulty. The Tiebreaker Round
+            proceeds as follows: questions are shown one at a time, with the
+            most challenging question shown first. The times for the questions
+            are as follows: Question 1, <b>25 minutes</b>; Question 2,
+            <b>15 minutes</b>; Question 3, <b>10 minutes</b>; Question 4,
+            <b>5 minutes</b>; Question 5, <b>5 minutes</b>. The first contestant
+            to solve the first question wins the Tiebreaker Round; other
+            contestants who solve the first question will be ranked by speed.
+            Any contestants who submit an incorrect answer move on to the second
+            question; similarly, accuracy and speed determine the rankings. This
+            process repeats until all ties are broken. In the final round, if
+            more than two people answer incorrectly, the person to answer
+            incorrectly first places higher. All participants in the tiebreaker
+            round must stay for the whole round in order to not betray the final
+            rankings.
+          </p>
         </div>
 
-        <p class="text-3xl font-bold underline mb-10 mt-20 mx-10">Rules and Format</p>
-        <div class="flex flex-col justify-start items-start max-w-3xl mx-10">
-            Contest Rules and Format:
-                <p>-For all tests, no computational devices, including but not limited to calculators, electronic devices, or abaci, are allowed. Similarly, graph paper and protractors are prohibited, but rulers and compasses are permitted. </p>
-                <p>-The BIMCT takes academic honesty seriously. Any incidences of cheating will result in an immediate disqualification and a possible ban from future contests.</p>
-                <p>-All answers except in the Countdown Round and Post-Contest games will be integer answers.</p>
-                <p>-The entire exam will be conducted online over Zoom with a proctor in each Zoom room. Join our discord or check out our website to view the Zoom link when it is posted. </p>
-                <p>-All answers will be submitted through Google Forms.</p>
-                <p>-The Google Forms and Problem Set PDFs will be sent to the Zoom room on the contest day.</p>
-                <p>-Students can submit problem disputes through a form on the contest day if they disagree with an answer. The deadline for problem disputes will similarly be announced.</p>
-
-
-
-
+        <div
+          class="flex flex-col justify-center items-center max-w-xl text-center mx-10"
+        >
+          <p class="text-2xl font-bold underline mb-10">Countdown Round</p>
+          <p class="text-lg mb-10">
+            After tiebreakers, the top 8 scorers in each division will
+            participate in the Countdown Round. The Countdown Round consists of
+            short, easy problems that last <b>45 seconds</b> each. In every
+            round, two players will compete to answer the question as quickly
+            and accurately as possible; the first person to answer correctly
+            gains a point. Players may not answer a question again after
+            answering incorrectly. No points are awarded if no person answers
+            the question correctly when the time runs out. In all rounds except
+            the final, the first person to receive 2 points moves on. In the
+            final round, the first person to receive 3 points will win the
+            Countdown Round.
+          </p>
         </div>
-        <!--The formula is like (individual scores of all team members/number of people on the team) * 6 + 10 * team round score-->
-        <!--after the team round, the sum of the individaul scores and the maximum team scores should have one more indent-->
-        <p class="text-3xl font-bold underline mb-10 mt-20 mx-10">Scoring</p>
-        <div class="flex flex-col justify-start items-start max-w-3xl mx-10">
-            <p>- Individual Scores will be determined solely by the number of questions correctly answered on the
-                Individual Round. </p>
-            <p>- Ties will be broken through the Tiebreaker Round as described before. The maximum Individual Score is
-                10. </p>
-            <p>- The Team Score is determined by the number of questions correctly answered on the Team Round. Teams
-                will be ranked based on the following formula: </p>
-            <div style="padding-left: 2em;">
-                <p> - (Sum of Individual Scores of all team members / Number of people on the team) * 6 + (10 * Team Round Score)
-                </p>
-                <p> - The maximum Team Score is 210. </p>
-            </div>
-        </div>
-
-
-
-
+      </div>
+    </div>
+    <div class="flex flex-col justify-center items-center">
+      <p class="text-3xl font-bold mb-10 mt-10 text-center">
+        Post-Contest Games
+      </p>
+      <p class="text-xl mb-10 mt-10 ml-20 mr-20 text-center">
+        During Tiebreakers and Countdown, anyone who is available will also be
+        able to participate in a selection of Post-Contest Games. We will have
+        an estimathon round, where teams of up to 4 will compete to estimate the
+        values of different quantities. We will have an integration bee, which
+        will be a knockout-style tournament where participants compete to solve
+        integrals faster. Lastly, we will potentially also have a cyclic relay
+        round, a series of 10 questions, each of whose answers depend on the
+        answer to the previous question (so that you would need to solve every
+        problem to solve any).
+      </p>
+    </div>
+    <div class="flex flex-col justify-center items-center">
+      <p class="text-5xl font-bold mb-10 mt-10 text-center">Physics</p>
+      <p class="text-xl mb-10 mt-10 ml-20 mr-20 text-center">
+        The Physics Round is <b>20 problems</b>, lasts <b>120 minutes</b>, and
+        will be completed by teams of at most 4. The test will contain problems
+        at the level of AP Physics 2, AP Physics C, USAPhO, and higher.
+      </p>
+    </div>
+    <div class="flex flex-col justify-center items-center">
+      <p class="text-5xl font-bold mb-10 mt-10 text-center">Computer Science</p>
+      <p class="text-xl mb-10 mt-10 ml-20 mr-20 text-center">
+        The Programming Round is <b>12 problems</b>, lasts <b>180 minutes</b>,
+        and will be completed by teams of at most 3. The test will contain
+        problems in varying levels, from USACO Bronze level to USACO Platinum
+        level.
+      </p>
     </div>
 
+    <p class="text-3xl font-bold underline mb-10 mt-20 mx-10">
+      Rules and Format
+    </p>
+    <div class="flex flex-col justify-start items-start max-w-3xl mx-10">
+      Contest Rules and Format:
+      <p>
+        -For all tests, no computational devices, including but not limited to
+        calculators, electronic devices, or abaci, are allowed. Similarly, graph
+        paper and protractors are prohibited, but rulers and compasses are
+        permitted.
+      </p>
+      <p>
+        -The BIMCT takes academic honesty seriously. Any incidences of cheating
+        will result in an immediate disqualification and a possible ban from
+        future contests.
+      </p>
+      <p>
+        -All answers except in the Countdown Round and Post-Contest games will
+        be integer answers.
+      </p>
+      <p>
+        -The entire exam will be conducted online over Zoom with a proctor in
+        each Zoom room. Join our discord or check out our website to view the
+        Zoom link when it is posted.
+      </p>
+      <p>-All answers will be submitted through Google Forms.</p>
+      <p>
+        -The Google Forms and Problem Set PDFs will be sent to the Zoom room on
+        the contest day.
+      </p>
+      <p>
+        -Students can submit problem disputes through a form on the contest day
+        if they disagree with an answer. The deadline for problem disputes will
+        similarly be announced.
+      </p>
+    </div>
+    <!--The formula is like (individual scores of all team members/number of people on the team) * 6 + 10 * team round score-->
+    <!--after the team round, the sum of the individaul scores and the maximum team scores should have one more indent-->
+    <p class="text-3xl font-bold underline mb-10 mt-20 mx-10">Scoring</p>
+    <div class="flex flex-col justify-start items-start max-w-3xl mx-10">
+      <p>
+        - Individual Scores will be determined solely by the number of questions
+        correctly answered on the Individual Round.
+      </p>
+      <p>
+        - Ties will be broken through the Tiebreaker Round as described before.
+        The maximum Individual Score is 10.
+      </p>
+      <p>
+        - The Team Score is determined by the number of questions correctly
+        answered on the Team Round. Teams will be ranked based on the following
+        formula:
+      </p>
+      <div style="padding-left: 2em">
+        <p>
+          - (Sum of Individual Scores of all team members / Number of people on
+          the team) * 4 + (10 * Team Round Score)
+        </p>
+        <p>- The maximum Team Score is 190.</p>
+      </div>
+    </div>
+  </div>
 </body>
 
 {% endblock %}
