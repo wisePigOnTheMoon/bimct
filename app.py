@@ -15,9 +15,9 @@ def index():
 def mission():
     return render_template("/mission.html", page="Mission - BIMCT")
 
-@app.route("/format")
+@app.route("/new_format")
 def format():
-    return render_template("/format.html", page="Format - BIMCT")
+    return render_template("/new_format.html", page="Format - BIMCT")
 
 @app.route("/archive")
 def archive():

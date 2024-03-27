@@ -1,0 +1,45 @@
+{% extends "layout.html" %} {% block main %}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ url_for('static',filename='css/index.css') }}"
+/>
+
+<body class="mt-40">
+  {% include "navbar.html" %}
+  <div class="flex flex-row justify-center items-center">
+    <div
+      class="max-w-sm rounded overflow-hidden shadow-lg mb-10 sm:mr-10"
+      style="background-color: white"
+    >
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Math</div>
+        <p class="text-gray-700 text-base">Math</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-row justify-center items-center">
+    <div class="flex flex-col lg:flex-row justify-start items-start">
+      <div
+        class="max-w-sm rounded overflow-hidden shadow-lg mb-10 sm:mr-10"
+        style="background-color: white"
+      >
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Physics</div>
+          <p class="text-gray-700 text-base">Physics</p>
+        </div>
+      </div>
+      <div
+        class="max-w-sm rounded overflow-hidden shadow-lg mb-10 sm:mr-10"
+        style="background-color: white"
+      >
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">CS</div>
+          <p class="text-gray-700 text-base">CS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+{% endblock %}
