@@ -46,652 +46,692 @@
 
 <body class="mt-40">
   {% include "navbar.html" %}
-  <div class="flex flex-row justify-center items-center"></div>
   <div class="flex flex-row justify-center items-center">
-    <div class="flex flex-col lg:flex-row justify-start items-start">
-      <!--MATH STARTS HERE-->
-      <div
-        class="max-w-lg w-1/2 h-60 rounded overflow-hidden shadow-lg mb-10 sm:mr-5 ml-2 math-box"
-      >
-        <div class="px-6 py-4">
-          <div class="font-bold text-3xl mb-2">Math</div>
-          <p class="text-gray-700 text-base mt-5">
-            Math rounds consist of individual rounds, team rounds, and
-            tiebreakers. Computational devices, graph paper, and protractors are
-            prohibited. Rulers and compasses are allowed.
-          </p>
-          <div class="additional-content hidden">
-            <p class="text-gray-700 text-base mt-10">
-              For all tests, no computational devices, including but not limited
-              to calculators, electronic devices, or abaci, are allowed.
-              Similarly, graph paper and protractors are prohibited, but rulers
-              and compasses are permitted.
+    <div class="flex flex-row justify-center items-center">
+      <div class="flex flex-col lg:flex-row justify-start items-start">
+        <!--MATH STARTS HERE-->
+        <div
+          class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg mb-20 sm:mr-5 ml-2 math-box"
+        >
+          <div class="px-6 py-4">
+            <div class="font-bold text-3xl mb-2">Math</div>
+            <p class="text-gray-700 text-base mt-5">
+              Math rounds consist of individual rounds, team rounds, and
+              tiebreakers. Computational devices, graph paper, and protractors
+              are prohibited. Rulers and compasses are allowed.
             </p>
-            <p class="text-gray-700 text-base mt-10">
-              These tests will be conducted over Zoom. Throughout the entire
-              duration of the contest, you must have your video on. At the
-              beginning of the contest, rename yourself to put your individual
-              ID in front of your name.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              For the individual, team, and tiebreaker rounds, you will receive
-              a PDF containing the problems at the start of your allotted time.
-              A timer will be on the screen reminding you of how much time is
-              left, and you must submit the answer form within 1 minute of the
-              timer expiring. If you have any clarification questions about the
-              problems, you can directly message the proctors over Zoom, and
-              they will get back to you with an answer.
-            </p>
-            <div class="flex flex-col lg:flex-row justify-start items-start">
-              <!--INDIVIDUAL ROUND STARTS HERE-->
-              <div
-                class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mr-10 sm:mt-10 indiv-box"
-              >
-                <div class="px-6 py-4">
-                  <div class="font-bold text-2xl mb-2">Individual Round</div>
-                  <div class="additional-content hidden">
-                    <p class="text-gray-700 text-base mt-5">
-                      The Individual Round contains <b>10 problems</b> in
-                      <b>60 minutes</b>. It will be split into two divisions,
-                      middle school and high school. High school students must
-                      take the high school division tests, while middle school
-                      students have a choice between middle school and high
-                      school.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      All answers will be integers.
-                    </p>
-                    <p class="font-bold text-xl mt-10">
-                      Frequently Asked Questions:
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Q: How can I prepare for the individual round?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20">
-                      A: Since our problems are designed to prepare you for
-                      contests while promoting creative thinking, taking
-                      previous AMC 8s and AMC 10/12s can help you prepare for
-                      this contest.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Q: What is the difficulty of the individual rounds?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20">
-                      A: For the middle school division, the difficulty of the
-                      questions steadily increases from mid AMC 8 to early AIME,
-                      while for the high school division, the difficulty
-                      increases from AMC 10/12 - late AIME
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Q: How many individuals will get awards?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
-                      A: The top 5 scorers in the middle school and high school
-                      divisions will receive prizes.
-                    </p>
+            <div class="additional-content hidden">
+              <p class="text-gray-700 text-base mt-10">
+                For all tests, no computational devices, including but not
+                limited to calculators, electronic devices, or abaci, are
+                allowed. Similarly, graph paper and protractors are prohibited,
+                but rulers and compasses are permitted.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                These tests will be conducted over Zoom. Throughout the entire
+                duration of the contest, you must have your video on. At the
+                beginning of the contest, rename yourself to put your individual
+                ID in front of your name.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                For the individual, team, and tiebreaker rounds, you will
+                receive a PDF containing the problems at the start of your
+                allotted time. A timer will be on the screen reminding you of
+                how much time is left, and you must submit the answer form
+                within 1 minute of the timer expiring. If you have any
+                clarification questions about the problems, you can directly
+                message the proctors over Zoom, and they will get back to you
+                with an answer.
+              </p>
+              <div class="flex flex-col lg:flex-row justify-start items-start">
+                <!--INDIVIDUAL ROUND STARTS HERE-->
+                <div
+                  class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mr-10 sm:mt-10 indiv-box"
+                >
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">Individual Round</div>
+                    <div class="additional-content hidden">
+                      <p class="text-gray-700 text-base mt-5">
+                        The Individual Round contains <b>10 problems</b> in
+                        <b>60 minutes</b>. It will be split into two divisions,
+                        middle school and high school. High school students must
+                        take the high school division tests, while middle school
+                        students have a choice between middle school and high
+                        school.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        All answers will be integers.
+                      </p>
+                      <p class="font-bold text-xl mt-10">
+                        Frequently Asked Questions:
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Q: How can I prepare for the individual round?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20">
+                        A: Since our problems are designed to prepare you for
+                        contests while promoting creative thinking, taking
+                        previous AMC 8s and AMC 10/12s can help you prepare for
+                        this contest.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Q: What is the difficulty of the individual rounds?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20">
+                        A: For the middle school division, the difficulty of the
+                        questions steadily increases from mid AMC 8 to early
+                        AIME, while for the high school division, the difficulty
+                        increases from AMC 10/12 - late AIME
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Q: How many individuals will get awards?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
+                        A: The top 5 scorers in the middle school and high
+                        school divisions will receive prizes.
+                      </p>
+                    </div>
+                    <button
+                      class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
+                      onclick="expandSubBox('.indiv-box', '.math-box')"
+                    >
+                      Read More
+                    </button>
+                    <button
+                      class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
+                      onclick="closeSubBox('.indiv-box', '.math-box')"
+                    >
+                      X
+                    </button>
                   </div>
-                  <button
-                    class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
-                    onclick="expandSubBox('.indiv-box', '.math-box')"
-                  >
-                    Read More
-                  </button>
-                  <button
-                    class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
-                    onclick="closeSubBox('.indiv-box', '.math-box')"
-                  >
-                    X
-                  </button>
+                </div>
+                <div
+                  class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mr-10 sm:mt-10 team-box"
+                >
+                  <!--TEAM ROUND STARTS HERE-->
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">Team Round</div>
+                    <div class="additional-content hidden">
+                      <p class="text-gray-700 text-base mt-5">
+                        The Team Round contains <b>15 problems</b> in
+                        <b>60 minutes</b>. Each team will have up to 4 members.
+                        <b>Each team member must be in the same division</b>
+                        (middle school or high school).
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        During the contest, each team will be allotted their own
+                        breakout room, where they can talk amongst themselves.
+                        Proctors will regularly check in on the breakout rooms.
+                        For clarification questions, you may come to the main
+                        room to ask a proctor, and they will send a global
+                        message if the question can be answered.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        The total score of a team is the average score of the
+                        individuals, plus the score of the team round. Top 5
+                        teams in each division will earn prizes.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        If you have a team of less than 4 members, you may
+                        indicate on the registration form for us to merge you
+                        with another team. At the registration deadline, any
+                        teams that have been merged will be notified about their
+                        new IDs. You will only be merged with teams in the same
+                        division as you.
+                      </p>
+                      <p class="font-bold text-xl mt-10">
+                        Frequently Asked Questions:
+                      </p>
+                      <p class="text-gray-700 text-base mt-10 mb-10">
+                        Q: What is the difficulty of the team rounds?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
+                        A: The problems will range from mid AMC 10 to early
+                        USAMO level. Do not be alarmed if you struggle on some
+                        of these problems, they are meant to challenge even the
+                        best students.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10 mb-10">
+                        Q: How can we prepare for the team round?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
+                        A: You should get to know your team well—your team’s
+                        strengths and weaknesses. Split up the problems you are
+                        confident you can solve, and collaborate on the harder
+                        ones.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10 mb-10">
+                        Q: Am I at a disadvantage if I have fewer people on my
+                        team?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
+                        A: Unfortunately, yes. However, if you so choose, you
+                        can combine your team with others, and we will do our
+                        best to match you with another willing team in the same
+                        division.
+                      </p>
+                    </div>
+                    <button
+                      class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
+                      onclick="expandSubBox('.team-box', '.math-box')"
+                    >
+                      Read More
+                    </button>
+                    <button
+                      class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
+                      onclick="closeSubBox('.team-box', '.math-box')"
+                    >
+                      X
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mt-10 tiebreaker-box"
+                >
+                  <!--TEAM ROUND STARTS HERE-->
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">Tiebreaker Round</div>
+                    <div class="additional-content hidden">
+                      <p class="text-gray-700 text-base mt-5">
+                        Anyone who ties for a top 10 score in each individual
+                        division will participate in a Tiebreaker Round. The
+                        Tiebreaker test has <b>5 problems</b> that will
+                        challenge even the strongest competitors; the problems
+                        range from mid-AIME difficulty to Olympiad difficulty.
+                        The Tiebreaker Round proceeds as follows: questions are
+                        shown one at a time, with the most challenging question
+                        shown first, with the following time limits:
+                      </p>
+                      <p class="text-gray-700 text-base mt-5 ml-20">
+                        Question 1 - <b>25 minutes</b>
+                      </p>
+                      <p class="text-gray-700 text-base mt-5 ml-20">
+                        Question 2 - <b>15 minutes</b>
+                      </p>
+                      <p class="text-gray-700 text-base mt-5 ml-20">
+                        Question 3 - <b>10 minutes</b>
+                      </p>
+                      <p class="text-gray-700 text-base mt-5 ml-20">
+                        Question 4 - <b>5 minutes</b>
+                      </p>
+                      <p class="text-gray-700 text-base mt-5 ml-20">
+                        Question 5 - <b>5 minutes</b>
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Within the time limit, you may submit to the same
+                        question multiple times; however, ONLY your last
+                        submission, and the time it took for the last
+                        submission, will count.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        The first contestant to solve the first question wins
+                        the Tiebreaker Round; other contestants who solve the
+                        first question will be ranked by speed. Any contestants
+                        who submit an incorrect answer move on to the second
+                        question, which will break ties by the same process.
+                        This process repeats until all ties are broken. In the
+                        final round, if more than two people answer incorrectly,
+                        the person who answers incorrectly first places higher.
+                        All participants in the tiebreaker round must stay for
+                        the whole round in order to not reveal the final
+                        rankings.
+                      </p>
+                      <p class="font-bold text-xl mt-10">
+                        Frequently Asked Questions:
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Q: If I solve the first question, should I still
+                        participate in the rest of the Tiebreaker Round?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20">
+                        A: Yes. We will not reveal correct answers to the
+                        tiebreaker problems until the end of the Tiebreaker
+                        Round. This way, participants can have fun solving all
+                        the problems, whether they are already ranked or not.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Q: How would we know who is invited to the Tiebreaker
+                        Round?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20">
+                        A: We will announce who is invited to the Tiebreaker
+                        Round on the Discord.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Q: What should you do if you are not invited to the
+                        Tiebreaker Round?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
+                        A: You can participate in other fun activities like the
+                        Estimathon.
+                      </p>
+                    </div>
+                    <button
+                      class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
+                      onclick="expandSubBox('.tiebreaker-box', '.math-box')"
+                    >
+                      Read More
+                    </button>
+                    <button
+                      class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
+                      onclick="closeSubBox('.tiebreaker-box', '.math-box')"
+                    >
+                      X
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div
-                class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mr-10 sm:mt-10 team-box"
-              >
-                <!--TEAM ROUND STARTS HERE-->
-                <div class="px-6 py-4">
-                  <div class="font-bold text-2xl mb-2">Team Round</div>
-                  <div class="additional-content hidden">
-                    <p class="text-gray-700 text-base mt-5">
-                      The Team Round contains <b>15 problems</b> in
-                      <b>60 minutes</b>. Each team will have up to 4 members.
-                      <b>Each team member must be in the same division</b>
-                      (middle school or high school).
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      During the contest, each team will be allotted their own
-                      breakout room, where they can talk amongst themselves.
-                      Proctors will regularly check in on the breakout rooms.
-                      For clarification questions, you may come to the main room
-                      to ask a proctor, and they will send a global message if
-                      the question can be answered.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      The total score of a team is the average score of the
-                      individuals, plus the score of the team round. Top 5 teams
-                      in each division will earn prizes.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      If you have a team of less than 4 members, you may
-                      indicate on the registration form for us to merge you with
-                      another team. At the registration deadline, any teams that
-                      have been merged will be notified about their new IDs. You
-                      will only be merged with teams in the same division as
-                      you.
-                    </p>
-                    <p class="font-bold text-xl mt-10">
-                      Frequently Asked Questions:
-                    </p>
-                    <p class="text-gray-700 text-base mt-10 mb-10">
-                      Q: What is the difficulty of the team rounds?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
-                      A: The problems will range from mid AMC 10 to early USAMO
-                      level. Do not be alarmed if you struggle on some of these
-                      problems, they are meant to challenge even the best
-                      students.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10 mb-10">
-                      Q: How can we prepare for the team round?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
-                      A: You should get to know your team well—your team’s
-                      strengths and weaknesses. Split up the problems you are
-                      confident you can solve, and collaborate on the harder
-                      ones.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10 mb-10">
-                      Q: Am I at a disadvantage if I have fewer people on my
-                      team?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
-                      A: Unfortunately, yes. However, if you so choose, you can
-                      combine your team with others, and we will do our best to
-                      match you with another willing team in the same division.
-                    </p>
+              <div class="flex flex-col lg:flex-row justify-start items-start">
+                <div
+                  class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mr-10 sm:mt-10 countdown-box"
+                >
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">Countdown Round</div>
+                    <div class="additional-content hidden">
+                      <p class="text-gray-700 text-base mt-5">
+                        After tiebreakers, the top 8 scorers in each division
+                        will participate in the Countdown Round. Contestants
+                        will be seeded by their rankings in the individual
+                        round, with ties broken by the Tiebreaker Round.
+                        Brackets will not be reseeded; that is, the bracket
+                        determined by the seeding at the start will be the final
+                        bracket that is played.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        The Countdown Round consists of short, easy problems
+                        that last <b>45 seconds</b> each. As soon as the
+                        allotted time begins, the problem will be shown on the
+                        screen. A reader will then read the problem out loud.
+                        Participants are allowed to buzz in the middle of
+                        reading the question.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        In every round, two players will compete to answer the
+                        question as quickly and accurately as possible; the
+                        first person to answer correctly gains a point. A player
+                        must say their answer within 3 seconds of buzzing;
+                        attempting to stall by using filler words or restating
+                        the question will automatically disqualify you from
+                        answering the question. Players may not answer a
+                        question again after answering incorrectly. No points
+                        are awarded if no person answers the question correctly
+                        when the time runs out. In all rounds except the final,
+                        the first person to receive 2 points moves on. In the
+                        final round, the first person to receive 3 points will
+                        win the Countdown Round. The winner in each division
+                        will earn an additional prize.
+                      </p>
+                      <p class="font-bold text-xl mt-10">
+                        Frequently Asked Questions:
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Q: If we do not qualify for the Countdown Round, can we
+                        still watch it?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20">
+                        A: Yes. In fact, we encourage students to not only
+                        watch, but also play along with the contestants, to
+                        improve their skills and learn from the top contestants.
+                      </p>
+                    </div>
+                    <button
+                      class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
+                      onclick="expandSubBox('.countdown-box', '.math-box')"
+                    >
+                      Read More
+                    </button>
+                    <button
+                      class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
+                      onclick="closeSubBox('.countdown-box', '.math-box')"
+                    >
+                      X
+                    </button>
                   </div>
-                  <button
-                    class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
-                    onclick="expandSubBox('.team-box', '.math-box')"
-                  >
-                    Read More
-                  </button>
-                  <button
-                    class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
-                    onclick="closeSubBox('.team-box', '.math-box')"
-                  >
-                    X
-                  </button>
                 </div>
-              </div>
-              <div
-                class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mt-10 tiebreaker-box"
-              >
-                <!--TEAM ROUND STARTS HERE-->
-                <div class="px-6 py-4">
-                  <div class="font-bold text-2xl mb-2">Tiebreaker Round</div>
-                  <div class="additional-content hidden">
-                    <p class="text-gray-700 text-base mt-5">
-                      Anyone who ties for a top 10 score in each individual
-                      division will participate in a Tiebreaker Round. The
-                      Tiebreaker test has <b>5 problems</b> that will challenge
-                      even the strongest competitors; the problems range from
-                      mid-AIME difficulty to Olympiad difficulty. The Tiebreaker
-                      Round proceeds as follows: questions are shown one at a
-                      time, with the most challenging question shown first, with
-                      the following time limits:
-                    </p>
-                    <p class="text-gray-700 text-base mt-5 ml-20">
-                      Question 1 - <b>25 minutes</b>
-                    </p>
-                    <p class="text-gray-700 text-base mt-5 ml-20">
-                      Question 2 - <b>15 minutes</b>
-                    </p>
-                    <p class="text-gray-700 text-base mt-5 ml-20">
-                      Question 3 - <b>10 minutes</b>
-                    </p>
-                    <p class="text-gray-700 text-base mt-5 ml-20">
-                      Question 4 - <b>5 minutes</b>
-                    </p>
-                    <p class="text-gray-700 text-base mt-5 ml-20">
-                      Question 5 - <b>5 minutes</b>
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Within the time limit, you may submit to the same question
-                      multiple times; however, ONLY your last submission, and
-                      the time it took for the last submission, will count.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      The first contestant to solve the first question wins the
-                      Tiebreaker Round; other contestants who solve the first
-                      question will be ranked by speed. Any contestants who
-                      submit an incorrect answer move on to the second question,
-                      which will break ties by the same process. This process
-                      repeats until all ties are broken. In the final round, if
-                      more than two people answer incorrectly, the person who
-                      answers incorrectly first places higher. All participants
-                      in the tiebreaker round must stay for the whole round in
-                      order to not reveal the final rankings.
-                    </p>
-                    <p class="font-bold text-xl mt-10">
-                      Frequently Asked Questions:
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Q: If I solve the first question, should I still
-                      participate in the rest of the Tiebreaker Round?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20">
-                      A: Yes. We will not reveal correct answers to the
-                      tiebreaker problems until the end of the Tiebreaker Round.
-                      This way, participants can have fun solving all the
-                      problems, whether they are already ranked or not.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Q: How would we know who is invited to the Tiebreaker
-                      Round?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20">
-                      A: We will announce who is invited to the Tiebreaker Round
-                      on the Discord.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Q: What should you do if you are not invited to the
-                      Tiebreaker Round?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20 mb-10">
-                      A: You can participate in other fun activities like the
-                      Estimathon.
-                    </p>
+                <div
+                  class="max-w-lg w-1/2 overflow-hidden shadow-lg sm:mr-10 sm:mt-10 integration-box"
+                >
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">Integration Bee</div>
+                    <div class="additional-content hidden">
+                      <p class="text-gray-700 text-base mt-5">
+                        Each question on the Integration Bee consists of a
+                        single integral, of which you must find a numerical
+                        answer (in the case of a definite integral), or an
+                        expression (in the case of an indefinite integral). The
+                        Integration Bee consists of two rounds: a Qualification
+                        Round, and a Knockout Round.
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        The Qualification Round of the Integration Bee will
+                        consist of 10 integrals. You will have two minutes to
+                        solve each integral. The top 8 scoring participants from
+                        the Qualification Round will then compete in the
+                        knockout round (with ties being broken by total time
+                        taken).
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        The Knockout Round of the Integration Bee will be a
+                        single elimination tournament style bracket. In a
+                        matchup, the two players are given the same integral and
+                        2 minutes to solve it. If a player gets it wrong, they
+                        will not be allowed to answer until the other player
+                        answers incorrectly. The winner after the first three
+                        integrals will advance; if it remains a tie after 3
+                        integrals, players will keep attempting integrals until
+                        one wins. In the final, the winner after the first five
+                        integrals wins, instead of the first three.
+                      </p>
+                      <p class="font-bold text-xl mt-10">
+                        Frequently Asked Questions:
+                      </p>
+                      <p class="text-gray-700 text-base mt-10">
+                        Q: If I qualify for the Tiebreaker Round, can I still
+                        participate?
+                      </p>
+                      <p class="text-gray-500 text-base mt-5 ml-20">
+                        A: No. Unfortunately, it is not possible for you to
+                        participate in this event if you were a part of the
+                        tiebreaker round, although you may still observe the
+                        Knockout Rounds after you are done with the Tiebreaker.
+                      </p>
+                    </div>
+                    <button
+                      class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
+                      onclick="expandSubBox('.integration-box', '.math-box')"
+                    >
+                      Read More
+                    </button>
+                    <button
+                      class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
+                      onclick="closeSubBox('.integration-box', '.math-box')"
+                    >
+                      X
+                    </button>
                   </div>
-                  <button
-                    class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
-                    onclick="expandSubBox('.tiebreaker-box', '.math-box')"
-                  >
-                    Read More
-                  </button>
-                  <button
-                    class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
-                    onclick="closeSubBox('.tiebreaker-box', '.math-box')"
-                  >
-                    X
-                  </button>
+                </div>
+                <div
+                  class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mt-10 estimathon-box"
+                >
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">Estimathon</div>
+                    <div class="additional-content hidden">
+                      <p class="text-gray-700 text-base mt-5">
+                        Estimathons are completed by individuals or teams, with
+                        teams up to four people. The team that gets the highest
+                        score in the Estimathon will earn prizes.
+                      </p>
+                      <p class="text-gray-700 text-base mt-5">
+                        In an estimathon, you are trying to answer each problem
+                        to the best of your ability. To answer, you must enter a
+                        pair of positive integers (a, b), such that a &lt; b.
+                        Submissions that do not meet these requirements will not
+                        be considered, and you will receive 0 points for that
+                        problem. Your score will be calculated as follows: if
+                        the correct answer A satisfies A ∈ [a, b&rpar;, then you
+                        will receive ⌊100 a/(b-1)⌋ points for the problem.
+                        Otherwise, you will receive 0 points for that problem.
+                        (Thus, the maximum possible score you can receive for
+                        each problem is 100)
+                      </p>
+                      <p class="text-gray-700 text-base mt-5">
+                        You must have your camera on at all times, and using
+                        Google or any calculators will result in an automatic
+                        disqualification.
+                      </p>
+                    </div>
+                    <button
+                      class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
+                      onclick="expandSubBox('.estimathon-box', '.math-box')"
+                    >
+                      Read More
+                    </button>
+                    <button
+                      class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
+                      onclick="closeSubBox('.estimathon-box', '.math-box')"
+                    >
+                      X
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col lg:flex-row justify-start items-start">
-              <div
-                class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mr-10 sm:mt-10 countdown-box"
-              >
-                <div class="px-6 py-4">
-                  <div class="font-bold text-2xl mb-2">Countdown Round</div>
-                  <div class="additional-content hidden">
-                    <p class="text-gray-700 text-base mt-5">
-                      After tiebreakers, the top 8 scorers in each division will
-                      participate in the Countdown Round. Contestants will be
-                      seeded by their rankings in the individual round, with
-                      ties broken by the Tiebreaker Round. Brackets will not be
-                      reseeded; that is, the bracket determined by the seeding
-                      at the start will be the final bracket that is played.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      The Countdown Round consists of short, easy problems that
-                      last <b>45 seconds</b> each. As soon as the allotted time
-                      begins, the problem will be shown on the screen. A reader
-                      will then read the problem out loud. Participants are
-                      allowed to buzz in the middle of reading the question.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      In every round, two players will compete to answer the
-                      question as quickly and accurately as possible; the first
-                      person to answer correctly gains a point. A player must
-                      say their answer within 3 seconds of buzzing; attempting
-                      to stall by using filler words or restating the question
-                      will automatically disqualify you from answering the
-                      question. Players may not answer a question again after
-                      answering incorrectly. No points are awarded if no person
-                      answers the question correctly when the time runs out. In
-                      all rounds except the final, the first person to receive 2
-                      points moves on. In the final round, the first person to
-                      receive 3 points will win the Countdown Round. The winner
-                      in each division will earn an additional prize.
-                    </p>
-                    <p class="font-bold text-xl mt-10">
-                      Frequently Asked Questions:
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Q: If we do not qualify for the Countdown Round, can we
-                      still watch it?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20">
-                      A: Yes. In fact, we encourage students to not only watch,
-                      but also play along with the contestants, to improve their
-                      skills and learn from the top contestants.
-                    </p>
-                  </div>
-                  <button
-                    class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
-                    onclick="expandSubBox('.countdown-box', '.math-box')"
-                  >
-                    Read More
-                  </button>
-                  <button
-                    class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
-                    onclick="closeSubBox('.countdown-box', '.math-box')"
-                  >
-                    X
-                  </button>
-                </div>
-              </div>
-              <div
-                class="max-w-lg w-1/2 overflow-hidden shadow-lg sm:mr-10 sm:mt-10 integration-box"
-              >
-                <div class="px-6 py-4">
-                  <div class="font-bold text-2xl mb-2">Integration Bee</div>
-                  <div class="additional-content hidden">
-                    <p class="text-gray-700 text-base mt-5">
-                      Each question on the Integration Bee consists of a single
-                      integral, of which you must find a numerical answer (in
-                      the case of a definite integral), or an expression (in the
-                      case of an indefinite integral). The Integration Bee
-                      consists of two rounds: a Qualification Round, and a
-                      Knockout Round.
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      The Qualification Round of the Integration Bee will
-                      consist of 10 integrals. You will have two minutes to
-                      solve each integral. The top 8 scoring participants from
-                      the Qualification Round will then compete in the knockout
-                      round (with ties being broken by total time taken).
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      The Knockout Round of the Integration Bee will be a single
-                      elimination tournament style bracket. In a matchup, the
-                      two players are given the same integral and 2 minutes to
-                      solve it. If a player gets it wrong, they will not be
-                      allowed to answer until the other player answers
-                      incorrectly. The winner after the first three integrals
-                      will advance; if it remains a tie after 3 integrals,
-                      players will keep attempting integrals until one wins. In
-                      the final, the winner after the first five integrals wins,
-                      instead of the first three.
-                    </p>
-                    <p class="font-bold text-xl mt-10">
-                      Frequently Asked Questions:
-                    </p>
-                    <p class="text-gray-700 text-base mt-10">
-                      Q: If I qualify for the Tiebreaker Round, can I still
-                      participate?
-                    </p>
-                    <p class="text-gray-500 text-base mt-5 ml-20">
-                      A: No. Unfortunately, it is not possible for you to
-                      participate in this event if you were a part of the
-                      tiebreaker round, although you may still observe the
-                      Knockout Rounds after you are done with the Tiebreaker.
-                    </p>
-                  </div>
-                  <button
-                    class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
-                    onclick="expandSubBox('.integration-box', '.math-box')"
-                  >
-                    Read More
-                  </button>
-                  <button
-                    class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
-                    onclick="closeSubBox('.integration-box', '.math-box')"
-                  >
-                    X
-                  </button>
-                </div>
-              </div>
-              <div
-                class="max-w-lg w-1/2 rounded overflow-hidden shadow-lg sm:mt-10 estimathon-box"
-              >
-                <div class="px-6 py-4">
-                  <div class="font-bold text-2xl mb-2">Estimathon</div>
-                  <div class="additional-content hidden">
-                    <p class="text-gray-700 text-base mt-5">
-                      Estimathons are completed by individuals or teams, with
-                      teams up to four people. The team that gets the highest
-                      score in the Estimathon will earn prizes.
-                    </p>
-                    <p class="text-gray-700 text-base mt-5">
-                      In an estimathon, you are trying to answer each problem to
-                      the best of your ability. To answer, you must enter a pair
-                      of positive integers (a, b), such that a &lt; b.
-                      Submissions that do not meet these requirements will not
-                      be considered, and you will receive 0 points for that
-                      problem. Your score will be calculated as follows: if the
-                      correct answer A satisfies A ∈ [a, b&rpar;, then you will
-                      receive ⌊100 a/(b-1)⌋ points for the problem. Otherwise,
-                      you will receive 0 points for that problem. (Thus, the
-                      maximum possible score you can receive for each problem is
-                      100)
-                    </p>
-                    <p class="text-gray-700 text-base mt-5">
-                      You must have your camera on at all times, and using
-                      Google or any calculators will result in an automatic
-                      disqualification.
-                    </p>
-                  </div>
-                  <button
-                    class="bg-red-500 text-white px-4 py-2 rounded sub-read-more"
-                    onclick="expandSubBox('.estimathon-box', '.math-box')"
-                  >
-                    Read More
-                  </button>
-                  <button
-                    class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden sub-close-button"
-                    onclick="closeSubBox('.estimathon-box', '.math-box')"
-                  >
-                    X
-                  </button>
-                </div>
-              </div>
+            <button
+              class="bg-red-500 text-white px-4 py-2 rounded mt-4 read-more-button"
+              onclick="expandBox('.math-box')"
+            >
+              Read More
+            </button>
+            <button
+              class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-2 m-4 hidden close-button"
+              onclick="closeBox('.math-box')"
+            >
+              X
+            </button>
+          </div>
+        </div>
+        <div
+          class="max-w-lg w-1/2 h-60 rounded overflow-hidden shadow-lg mb-20 sm:mr-5 physics-box"
+        >
+          <div class="px-6 py-4">
+            <div class="font-bold text-3xl mb-2">Physics</div>
+            <p class="text-gray-700 text-base mt-5">
+              The physics round consists of one test. Computational devices are
+              prohibited.
+            </p>
+            <div class="additional-content hidden">
+              <p class="text-gray-700 text-base mt-10">
+                For all tests, no computational devices, including but not
+                limited to calculators, electronic devices, or abaci, are
+                allowed.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                This test will be conducted over Zoom. Throughout the entire
+                duration of the contest, you must have your video on. At the
+                beginning of the contest, rename yourself to put your individual
+                ID in front of your name.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                During the contest, each team will be allotted their own
+                breakout room, where they can talk amongst themselves. Proctors
+                will regularly check in on the breakout rooms. For clarification
+                questions, you may come to the main room to ask a proctor, and
+                they will send a global message if the question can be answered.
+                You will receive a PDF containing the problems at the start of
+                your allotted time.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                The score for the team round will be the total number of points
+                earned from each question.
+              </p>
+              <p class="font-bold text-xl mt-10">The Physics Test</p>
+              <p class="text-gray-700 text-base mt-10">
+                The Physics Test contains
+                <b>25 problems</b> in
+                <b>180 minutes (3 hours).</b>
+                Each team will have up to 4 members.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                Each question is weighted according to its relative difficulty
+                (weights are subjective and have no indication of the problem’s
+                true difficulty - what we find hard for us may not be hard for
+                you). <b>Partial credit will be awarded</b> (show your work).
+              </p>
+              <p class="font-bold text-xl mt-10">Conventions</p>
+              <p class="text-gray-700 text-base mt-10">
+                All questions require symbolic expressions. Ignore relativistic
+                or quantum effects unless the problem states otherwise. Leave
+                all trigonometric functions in your answer like tan(2) as is.
+                Leave any operators such as max(x,y), abs(x), floor(x) as is
+                unless they can be further simplified.
+              </p>
+              <p class="font-bold text-xl mt-10">Frequently Asked Questions:</p>
+              <p class="text-gray-700 text-base mt-10">
+                Q: What topics are covered on this test?
+              </p>
+              <p class="text-gray-500 text-base mt-5 ml-20">
+                A: Topics that may appear include everything on the IPhO
+                syllabus (mechanics, electricity & magnetism, thermodynamics,
+                waves, and modern physics). Not all topics are necessarily
+                covered.
+              </p>
+              <p class="text-gray-500 text-base mt-5 ml-20">
+                It is recommended to have a solid understanding of calculus and
+                geometry. Some questions may be mathematically more intense than
+                others
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                Q: How difficult is this test?
+              </p>
+              <p class="text-gray-500 text-base mt-5 ml-20">
+                A: Questions on this test range from difficulties of a standard
+                AP Physics test to International Olympiad levels (IPhO, IZhO,
+                …). Do not be alarmed if you are unable to make progress on a
+                portion of the questions.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                Q: What materials should I prepare for the competition?
+              </p>
+              <p class="text-gray-500 text-base mt-5 ml-20">
+                A: Be prepared to use up to 15-20 sheets of scratch paper,
+                although depending on the student, not all of it may be
+                necessary. Rulers and compasses are permitted and may be useful.
+              </p>
+              <p class="text-gray-500 text-base mt-5 ml-20">
+                Once again, all computational aids, such as calculators, abaci,
+                and electronic devices, are prohibited on the test.
+              </p>
             </div>
+            <button
+              class="bg-red-500 text-white px-4 py-2 rounded mt-4 read-more-button"
+              onclick="expandBox('.physics-box')"
+            >
+              Read More
+            </button>
+            <button
+              class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden close-button"
+              onclick="closeBox('.physics-box')"
+            >
+              X
+            </button>
           </div>
-          <button
-            class="bg-red-500 text-white px-4 py-2 rounded mt-4 read-more-button"
-            onclick="expandBox('.math-box')"
-          >
-            Read More
-          </button>
-          <button
-            class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-2 m-4 hidden close-button"
-            onclick="closeBox('.math-box')"
-          >
-            X
-          </button>
         </div>
-      </div>
-      <div
-        class="max-w-lg w-1/2 h-60 rounded overflow-hidden shadow-lg mb-10 sm:mr-5 physics-box"
-      >
-        <div class="px-6 py-4">
-          <div class="font-bold text-3xl mb-2">Physics</div>
-          <p class="text-gray-700 text-base mt-5">
-            The physics round consists of one test. Computational devices are
-            prohibited.
-          </p>
-          <div class="additional-content hidden">
-            <p class="text-gray-700 text-base mt-10">
-              For all tests, no computational devices, including but not limited
-              to calculators, electronic devices, or abaci, are allowed.
+        <div
+          class="max-w-lg w-1/2 h-60 rounded overflow-hidden shadow-lg mb-20 sm:mr-5 cs-box"
+        >
+          <div class="px-6 py-4">
+            <div class="font-bold text-3xl mb-2">Programming</div>
+            <p class="text-gray-700 text-base mt-5">
+              The programming competition will consist of 12 questions, to be
+              completed in 3 hours.
             </p>
-            <p class="text-gray-700 text-base mt-10">
-              This test will be conducted over Zoom. Throughout the entire
-              duration of the contest, you must have your video on. At the
-              beginning of the contest, rename yourself to put your individual
-              ID in front of your name.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              During the contest, each team will be allotted their own breakout
-              room, where they can talk amongst themselves. Proctors will
-              regularly check in on the breakout rooms. For clarification
-              questions, you may come to the main room to ask a proctor, and
-              they will send a global message if the question can be answered.
-              You will receive a PDF containing the problems at the start of
-              your allotted time.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              The score for the team round will be the total number of points
-              earned from each question.
-            </p>
-            <p class="font-bold text-xl mt-10">The Physics Test</p>
-            <p class="text-gray-700 text-base mt-10">
-              The Physics Test contains
-              <b>25 problems</b> in
-              <b>180 minutes (3 hours).</b>
-              Each team will have up to 4 members.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              Each question is weighted according to its relative difficulty
-              (weights are subjective and have no indication of the problem’s
-              true difficulty - what we find hard for us may not be hard for
-              you). <b>Partial credit will be awarded</b> (show your work).
-            </p>
-            <p class="font-bold text-xl mt-10">Conventions</p>
-            <p class="text-gray-700 text-base mt-10">
-              All questions require symbolic expressions. Ignore relativistic or
-              quantum effects unless the problem states otherwise. Leave all
-              trigonometric functions in your answer like tan(2) as is. Leave
-              any operators such as max(x,y), abs(x), floor(x) as is unless they
-              can be further simplified.
-            </p>
-            <p class="font-bold text-xl mt-10">Frequently Asked Questions:</p>
-            <p class="text-gray-700 text-base mt-10">
-              Q: What topics are covered on this test?
-            </p>
-            <p class="text-gray-500 text-base mt-5 ml-20">
-              A: Topics that may appear include everything on the IPhO syllabus
-              (mechanics, electricity & magnetism, thermodynamics, waves, and
-              modern physics). Not all topics are necessarily covered.
-            </p>
-            <p class="text-gray-500 text-base mt-5 ml-20">
-              It is recommended to have a solid understanding of calculus and
-              geometry. Some questions may be mathematically more intense than
-              others
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              Q: How difficult is this test?
-            </p>
-            <p class="text-gray-500 text-base mt-5 ml-20">
-              A: Questions on this test range from difficulties of a standard AP
-              Physics test to International Olympiad levels (IPhO, IZhO, …). Do
-              not be alarmed if you are unable to make progress on a portion of
-              the questions.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              Q: What materials should I prepare for the competition?
-            </p>
-            <p class="text-gray-500 text-base mt-5 ml-20">
-              A: Be prepared to use up to 15-20 sheets of scratch paper,
-              although depending on the student, not all of it may be necessary.
-              Rulers and compasses are permitted and may be useful.
-            </p>
-            <p class="text-gray-500 text-base mt-5 ml-20">
-              Once again, all computational aids, such as calculators, abaci,
-              and electronic devices, are prohibited on the test.
-            </p>
+            <div class="additional-content hidden">
+              <p class="text-gray-700 text-base mt-10">
+                For the programming competition, you may compete in teams of up
+                to four individuals. The programming competition will be held on
+                <a href="https://codeforces.com." class="my-10 text-blue-600"
+                  >Codeforces</a
+                >
+                . Each team should sign up with one account, which every member
+                of the team should be able to access.
+                <a
+                  href="https://codeforces.com/register"
+                  class="my-10 text-blue-600"
+                  >Register here</a
+                >
+                to create an account on Codeforces. Once you have registered an
+                account on Codeforces, use that account to request to become a
+                Participant
+                <a
+                  href="https://codeforces.com/group/Am7lqUxQS0"
+                  class="my-10 text-blue-600"
+                  >in this Group</a
+                >. Remember that ONLY the account that you registered with will
+                be admitted into the group. Before the start of the contest, a
+                contest manager will admit you into the group, where you will
+                then be able to take the contest.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                Any outside sources are prohibited during the contest, although
+                code that has been saved on your computer beforehand is
+                permitted.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                Teams will be ranked by the total number of points they get.
+                Teams can get up to 100 points on each problem, with points
+                given to subtasks based on the problem description. Ties will be
+                broken by the time of the last submission that added points to
+                the team’s overall score. Any clarification questions can be
+                raised within the Codeforces contest.
+              </p>
+              <p class="font-bold text-xl mt-10">Frequently Asked Questions:</p>
+              <p class="text-gray-700 text-base mt-10">
+                Q: What is the difficulty of the problems?
+              </p>
+              <p class="text-gray-500 text-base mt-5 ml-20">
+                A: There are a range of difficulties to the problems. It ranges
+                from easy Bronze problems to hard Platinum level problems. Don’t
+                be afraid if you can’t solve some of the later problems, as they
+                are designed to take time to solve.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                Q: What languages are supported?
+              </p>
+              <p class="text-gray-500 text-base mt-5 ml-20">
+                A: Codeforces supports a variety of languages, such as python,
+                java, and C++.
+              </p>
+              <p class="text-gray-700 text-base mt-10">
+                Q: Will different languages get different time limits?
+              </p>
+              <p class="text-gray-500 text-base mt-5 ml-20">
+                A: No. Slower languages will not be afforded extra time.
+              </p>
+            </div>
+            <button
+              class="bg-red-500 text-white px-4 py-2 rounded mt-4 read-more-button"
+              onclick="expandBox('.cs-box')"
+            >
+              Read More
+            </button>
+            <button
+              class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden close-button"
+              onclick="closeBox('.cs-box')"
+            >
+              X
+            </button>
           </div>
-          <button
-            class="bg-red-500 text-white px-4 py-2 rounded mt-4 read-more-button"
-            onclick="expandBox('.physics-box')"
-          >
-            Read More
-          </button>
-          <button
-            class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden close-button"
-            onclick="closeBox('.physics-box')"
-          >
-            X
-          </button>
-        </div>
-      </div>
-      <div
-        class="max-w-lg w-1/2 h-60 rounded overflow-hidden shadow-lg mb-10 sm:mr-5 cs-box"
-      >
-        <div class="px-6 py-4">
-          <div class="font-bold text-3xl mb-2">Programming</div>
-          <p class="text-gray-700 text-base mt-5">
-            The programming competition will consist of 12 questions, to be
-            completed in 3 hours.
-          </p>
-          <div class="additional-content hidden">
-            <p class="text-gray-700 text-base mt-10">
-              For the programming competition, you may compete in teams of up to
-              four individuals. The programming competition will be held on
-              <a href="https://codeforces.com." class="my-10 text-blue-600"
-                >Codeforces</a
-              >
-              . Each team should sign up with one account, which every member of
-              the team should be able to access.
-              <a
-                href="https://codeforces.com/register"
-                class="my-10 text-blue-600"
-                >Register here</a
-              >
-              to create an account on Codeforces. Once you have registered an
-              account on Codeforces, use that account to request to become a
-              Participant
-              <a
-                href="https://codeforces.com/group/Am7lqUxQS0"
-                class="my-10 text-blue-600"
-                >in this Group</a
-              >. Remember that ONLY the account that you registered with will be
-              admitted into the group. Before the start of the contest, a
-              contest manager will admit you into the group, where you will then
-              be able to take the contest.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              Any outside sources are prohibited during the contest, although
-              code that has been saved on your computer beforehand is permitted.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              Teams will be ranked by the total number of points they get. Teams
-              can get up to 100 points on each problem, with points given to
-              subtasks based on the problem description. Ties will be broken by
-              the time of the last submission that added points to the team’s
-              overall score. Any clarification questions can be raised within
-              the Codeforces contest.
-            </p>
-            <p class="font-bold text-xl mt-10">Frequently Asked Questions:</p>
-            <p class="text-gray-700 text-base mt-10">
-              Q: What is the difficulty of the problems?
-            </p>
-            <p class="text-gray-500 text-base mt-5 ml-20">
-              A: There are a range of difficulties to the problems. It ranges
-              from easy Bronze problems to hard Platinum level problems. Don’t
-              be afraid if you can’t solve some of the later problems, as they
-              are designed to take time to solve.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              Q: What languages are supported?
-            </p>
-            <p class="text-gray-500 text-base mt-5 ml-20">
-              A: Codeforces supports a variety of languages, such as python,
-              java, and C++.
-            </p>
-            <p class="text-gray-700 text-base mt-10">
-              Q: Will different languages get different time limits?
-            </p>
-            <p class="text-gray-500 text-base mt-5 ml-20">
-              A: No. Slower languages will not be afforded extra time.
-            </p>
-          </div>
-          <button
-            class="bg-red-500 text-white px-4 py-2 rounded mt-4 read-more-button"
-            onclick="expandBox('.cs-box')"
-          >
-            Read More
-          </button>
-          <button
-            class="bg-red-500 text-white px-2 py-1 rounded absolute top-0 right-0 m-2 hidden close-button"
-            onclick="closeBox('.cs-box')"
-          >
-            X
-          </button>
         </div>
       </div>
     </div>
+  </div>
+</body>
+<body>
+  <div class="flex flex-col justify-center items-center">
+    <p class="font-bold text-gray-1000 text-5xl ml-40">General FAQs</p>
+  </div>
+  <div style="padding-left: 30em; padding-right: 20em">
+    <p class="text-gray-700 text-xl mt-10">
+      Q: Will different languages get different time limits?
+    </p>
+    <p class="text-gray-500 text-xl mt-5 ml-20">
+      A: No. Slower languages will not be afforded extra time.
+    </p>
+    <p class="text-gray-700 text-xl mt-10">
+      Q: How do I register for multiple subjects?
+    </p>
+    <p class="text-gray-500 text-xl mt-5 ml-20">
+      A: You can fill out the registration form multiple times, each time
+      registering with a different subject.
+    </p>
+    <p class="text-gray-700 text-xl mt-10">
+      Q: Can I have different teams for different subjects?
+    </p>
+    <p class="text-gray-500 text-xl mt-5 ml-20">
+      A: Yes. You may have different team members for different subjects. While
+      we will announce which individuals had the highest overall scores at the
+      end of the competitions, we will not give separate prizes for it.
+    </p>
   </div>
 </body>
 <script>

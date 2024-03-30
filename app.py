@@ -27,6 +27,11 @@ def archive():
 def current():
     return render_template("/current.html", page="Current Contest - BIMCT")
 
+@app.route("/faq")
+def faq():
+    return render_template("/faq.html", page="FAQ - BIMCT")
+
+
 @app.route("/people")
 def people():
     return render_template("people.html", page="People - BIMCT")
