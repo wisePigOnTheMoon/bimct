@@ -81,3 +81,5 @@ h1 {
 .teamButton.active {
     display: flex;
 }
+
+.body { width: 100vw; overflow-x: none; }
